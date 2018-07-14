@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+    <book available="true">
+        <name>Metro 2033</name>
+        <author>DImitri Glukhovsky</author>
+        <publisher>Unknown</publisher>
+        <isbn>123123123-34324</isbn>
+    </book>
+    <book available="true">
+        <name>C++ mastery</name>
+        <author>Denis Ritchie</author>
+        <publisher>Prada</publisher>
+        <isbn>1231443123-23121</isbn>
+    </book>
+    <damagedbook available="false">
+        <name>C++ mastery</name>
+        <author>Denis Ritchie</author>
+        <publisher>Prada</publisher>
+        <isbn>1231443123-23121</isbn>
+        <damageIndex>0.3</damageIndex>
+    </damagedbook>
+</books>

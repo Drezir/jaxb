@@ -15,7 +15,7 @@ public class BookController {
 
     public static void main(String[] args) {
         Book book1 = new BookImpl("BookA", "isbn1", "publisher1", "name1", true);
-        Book book2 = new DamagedBookImpl(book1, 0);
+        Book book2 = new DamagedBookImpl(book1, 0.5);
         BookStore bookStore = new BookStore(Arrays.asList(book1,book2));
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(BookStore.class);
